@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-# @Time    : 2025/1/2
-# @Author  : wenshao
-# @Email   : wenshaoguo1026@gmail.com
-# @Project : browser-use-webui
-# @FileName: test_playwright.py
 import pdb
 from dotenv import load_dotenv
 
@@ -12,7 +6,7 @@ load_dotenv()
 
 def test_connect_browser():
     import os
-    from playwright.sync_api import sync_playwright
+    from patchright.sync_api import sync_playwright
 
     chrome_exe = os.getenv("CHROME_PATH", "")
     chrome_use_data = os.getenv("CHROME_USER_DATA", "")

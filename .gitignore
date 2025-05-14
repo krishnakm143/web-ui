@@ -178,8 +178,23 @@ AgentHistory.json
 cv_04_24.pdf
 AgentHistoryList.json
 *.gif
+<<<<<<< HEAD
 node_modules/
 /test-results/
 /playwright-report/
 /blob-report/
 /playwright/.cache/
+=======
+
+# For Sharing (.pem files)
+.gradio/
+
+# For Docker
+data/
+
+# For Config Files (Current Settings)
+.config.pkl
+*.pdf
+
+workflow
+>>>>>>> addb0053daebc83674f6f0ca381b3b006d78df18
