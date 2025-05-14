@@ -1,0 +1,26 @@
+{
+  "name": "web-ui",
+  "version": "1.0.0",
+  "description": "<img src=\"./assets/web-ui.png\" alt=\"Browser Use Web UI\" width=\"full\"/>",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/browser-use/web-ui.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/browser-use/web-ui/issues"
+  },
+  "homepage": "https://github.com/browser-use/web-ui#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.49.1",
+    "@types/node": "^22.10.5"
+  }
+}
